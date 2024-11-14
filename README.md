@@ -6,11 +6,7 @@ Rete Locale: La macchina Kali Linux e Windows 10 sono nella stessa rete o raggiu
 2. Selezione dell'Exploit
 Per sfruttare la vulnerabilità, è stato scelto l'exploit exploit/windows/http/icecast_header presente in Metasploit, noto per sfruttare una vulnerabilità nelle versioni di Icecast affette da problemi di gestione dell'header HTTP.
 
-Comando eseguito per selezionare l'exploit:
-
-Copia codice:
-
-use exploit/windows/http/icecast_header
+Comando eseguito per selezionare l'exploit:use exploit/windows/http/icecast_header
 
 3. Configurazione dei Parametri
 Una volta selezionato l'exploit, sono stati configurati i parametri necessari:
